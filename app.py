@@ -18,7 +18,7 @@ def predict():
     int_features=[]
     for x in request.form.values():
         z.append(x)
-    a=[z[0],x[1],z[2],z[3],z[4]]
+    a=[z[0],z[1],z[2],z[3],z[4]]
     b=[z[5],z[6],z[7],z[8]]
     for x in request.form.values():
         z.append(x)
